@@ -23,7 +23,7 @@ public:
 int main()
 {
     Solution solution;
-    // OUT
+    OUT
     vector<int> nums= {1,2,3,4,5,6};
     cout<<solution.lengthOfLIS(nums);
-}
+} 
