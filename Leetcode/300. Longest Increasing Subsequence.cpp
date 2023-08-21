@@ -15,7 +15,11 @@ public:
         for(int i = 0; i < n; i++)
             for(int j = 0; j < i; j++)
                 if(nums[i] > nums[j])
-                    dp[i] = max(dp[i], dp[j] + 1), ans = max(ans, dp[i]);
+                {
+                    dp[i] = max(dp[i], dp[j] + 1);
+                    ans = max(ans, dp[i]);
+        
+                }
         return ans;
     }
 };
@@ -23,7 +27,7 @@ public:
 int main()
 {
     Solution solution;
-    OUT
+    //OUT
     vector<int> nums= {1,2,3,4,5,6};
     cout<<solution.lengthOfLIS(nums);
 } 
