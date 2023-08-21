@@ -12,18 +12,16 @@ class Solution {
                 temp.add(nums[i]);
                 c++;
             } else {
-                int index = Collections.binarySearch(temp, nums[i]);
-                if (index < 0) {
-                    index = -(index + 1);
-                }
+                int index = 1+ Collections.binarySearch(temp, nums[i]);
                 temp.set(index, nums[i]);
             }
         }
         return c + 1;
     }
+  
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {0,1,0,3,2,3};
+        int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         System.out.println(solution.lengthOfLIS(nums)); // Output: 4
     }
 }

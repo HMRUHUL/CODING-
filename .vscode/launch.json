@@ -6,6 +6,13 @@
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
+            "projectName": "EnoP_6936a365"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
             "projectName": "EnoP_4e33cd2c"
         },
         {
