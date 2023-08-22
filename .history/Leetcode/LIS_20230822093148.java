@@ -13,9 +13,9 @@ class LIS {
                 c++;
             } else {
                 int index = Collections.binarySearch(temp, nums[i]);
-                if (index < 0) {
-                    index = -(index + 1);
-                }
+                // if (index < 0) {
+                //     index = -(index + 1);
+                // }
                 temp.set(index, nums[i]);
             }
         }

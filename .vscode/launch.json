@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LIS",
+            "request": "launch",
+            "mainClass": "LIS",
+            "projectName": "EnoP_6936a365"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
