@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
-class Solution {
+class LIS {
     public int lengthOfLIS(int[] nums) {
         List<Integer> temp = new ArrayList<>();
         temp.add(nums[0]);
